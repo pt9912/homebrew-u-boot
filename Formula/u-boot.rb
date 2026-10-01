@@ -6,28 +6,28 @@
 class UBoot < Formula
   desc "Bootstrapper fuer reproduzierbare Docker-/Devcontainer-Stacks"
   homepage "https://github.com/pt9912/u-boot"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pt9912/u-boot/releases/download/v0.6.0/u-boot-darwin-arm64"
-      sha256 "261e51e127aa020148dfcb67f0da35e5f49fea3b1c6b1c3b94cefe2e9405371e"
+      url "https://github.com/pt9912/u-boot/releases/download/v0.7.0/u-boot-darwin-arm64"
+      sha256 "978643db836bca3bea5484141a507e455378c715d7590408993b0dabdfaec941"
     end
     on_intel do
-      url "https://github.com/pt9912/u-boot/releases/download/v0.6.0/u-boot-darwin-amd64"
-      sha256 "6836a67f85daafe063614dbd519cfb9ca96f5e56ea724cfb9339d7bc5ef4962b"
+      url "https://github.com/pt9912/u-boot/releases/download/v0.7.0/u-boot-darwin-amd64"
+      sha256 "8b6f2c93d777ecb2b137ec2379db5fcb8cf00d103d3e4faac8c124eb6cd8bfa7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pt9912/u-boot/releases/download/v0.6.0/u-boot-linux-arm64"
-      sha256 "d96cc30d12f795e729f6393a470f34cf3f4435bedc376da722a86fee749b700e"
+      url "https://github.com/pt9912/u-boot/releases/download/v0.7.0/u-boot-linux-arm64"
+      sha256 "193a94c70d01cba825026380b1ea904324f4c62ddd7e9ac74693204d91c1eda1"
     end
     on_intel do
-      url "https://github.com/pt9912/u-boot/releases/download/v0.6.0/u-boot-linux-amd64"
-      sha256 "c311a68c979d569b8af2d94fc6dbc26e61de704c36f1b18bc43cafa7acd26765"
+      url "https://github.com/pt9912/u-boot/releases/download/v0.7.0/u-boot-linux-amd64"
+      sha256 "258f8048ddf6d911df281b19b5a3a8a0b8a65cf6db0be3ac1e8e231dab00ce0b"
     end
   end
 
