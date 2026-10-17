@@ -6,7 +6,6 @@
 class UBoot < Formula
   desc "Bootstrapper fuer reproduzierbare Docker-/Devcontainer-Stacks"
   homepage "https://github.com/pt9912/u-boot"
-  version "0.9.0"
   license "MIT"
 
   on_macos do
