@@ -12,23 +12,23 @@ class UBoot < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/pt9912/u-boot/releases/download/v0.11.0/u-boot-darwin-arm64"
-      sha256 "7f7f03f769cd90b6b78638e08f47c11510d24ccde0771e93d91624a771204d60"
+      url "https://github.com/pt9912/u-boot/releases/download/v0.12.0/u-boot-darwin-arm64"
+      sha256 "278686194843edc551374a6fed381fc58fe564603665a93bc5516bdc08c3d131"
     end
     on_intel do
-      url "https://github.com/pt9912/u-boot/releases/download/v0.11.0/u-boot-darwin-amd64"
-      sha256 "4bb50c5f3ab1446182e8b7a3c4602b5e9955c09647de23c61fa63ffdf07deeb0"
+      url "https://github.com/pt9912/u-boot/releases/download/v0.12.0/u-boot-darwin-amd64"
+      sha256 "3cb7123ccc46b1753249fd6b0ee0ae50db061fe50770e2c202d87484055ac935"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pt9912/u-boot/releases/download/v0.11.0/u-boot-linux-arm64"
-      sha256 "d434eb37af07f4936a94729f7ce94f6ce0ce269aea58b7f8d8b0a7b723780b82"
+      url "https://github.com/pt9912/u-boot/releases/download/v0.12.0/u-boot-linux-arm64"
+      sha256 "9c4dffc4abf977b936ee750673db8cc4e8c1e19afcaf305ada31cd18e5177430"
     end
     on_intel do
-      url "https://github.com/pt9912/u-boot/releases/download/v0.11.0/u-boot-linux-amd64"
-      sha256 "72663da0c087de8f8b705dd9b1f9104e92407b43099dca0a99515cfc9623c5c1"
+      url "https://github.com/pt9912/u-boot/releases/download/v0.12.0/u-boot-linux-amd64"
+      sha256 "b26e4a049de4bfa9c4138f9f5a22406adcd7631c0eb16951f2508837eff68eb4"
     end
   end
 
